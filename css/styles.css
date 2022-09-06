@@ -137,7 +137,17 @@ img {
 }
 
 .hero {
-    background-color: #2F303A;     
+    background-color: #2F303A; 
+    max-width: 1600px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid #000;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .hero-title {    
@@ -211,6 +221,33 @@ img {
 .benefit-item {
     width: 270px;
 }
+
+.benefit-item::before {
+    display: block;
+    content: '';
+    height: 120px;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #F5F4FA;
+}
+
+.icon-antenna::before {
+    background-image: url(../images/antenna.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/clock.svg);
+}
+
+.icon-diagram::before {
+    background-image: url(../images/diagram.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/astronaut.svg);
+}
+
 
 .benefit-item-title {  
     margin-bottom: 10px;  
