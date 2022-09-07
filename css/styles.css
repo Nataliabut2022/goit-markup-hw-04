@@ -101,6 +101,23 @@ img {
     display: flex;      
 }
 
+.auth-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+}
+
+.auth-icon {
+    fill: var(--secondary-txt-cl);
+      
+}
+
+.auth-icon:hover .auth-link,
+.auth-icon:focus .auth-link {
+    color: var(--accent-txt-cl);
+}
+    
+
 .nav-list {    
     font-weight: 500;
     font-size: 14px;
@@ -217,6 +234,8 @@ img {
     gap: 30px;
 }
 
+
+
 .benefit-item {
     width: 270px;
 }
@@ -230,23 +249,6 @@ img {
     background-position: center;
     background-color: #F5F4FA;
 }
-
-.icon-antenna::before {
-    background-image: url(../images/icons/antenna.svg);
-}
-
-.icon-clock::before {
-    background-image: url(../images/icons/clock.svg);
-}
-
-.icon-diagram::before {
-    background-image: url(../images/icons/diagram.svg);
-}
-
-.icon-astronaut::before {
-    background-image: url(../images/icons/astronaut.svg);
-}
-
 
 .benefit-item-title {  
     margin-bottom: 10px;  
@@ -265,12 +267,11 @@ img {
 
 .work {
     padding-top: 0;
-    padding-bottom: 94px;
-    
+    padding-bottom: 94px;    
 }
 
 
-.work-title, .team-title {
+.work-title, .team-title, .clients-title {
     margin-bottom: 50px;
     font-size: 36px;
     line-height: calc(42 / 36);    
@@ -283,6 +284,35 @@ img {
     display: flex;
 }
 
+.clients {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    color: #AFB1B8;
+    background-color: #FFFFFF;
+    border: 1px solid #afb188;
+    border-radius: 4px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    color: var(--accent-bg-cl);
+    border: 1px solid var(--accent-bg-cl);
+}
+
+.clients-icon {
+    fill: currentColor;
+}
+
+
 .our-team {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -292,8 +322,7 @@ img {
 .team {
     background-color: var(--secondary-bg-cl);
     display: flex;
-    gap: 30px;
-   
+    gap: 30px;   
 }
 
 .team-item {
@@ -323,13 +352,43 @@ img {
     margin-bottom: 10px;
 }
 
-.team-text {    
+.team-text {   
+    margin-bottom: 16px; 
     line-height: calc(19 / 16);      
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-txt-cl);
 }
 
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.socials-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: #AFB1B8;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+    color: var(--light-txt-cl);
+    background-color: var(--accent-bg-cl);
+}
+
+.socials-icon {
+    fill: currentColor;
+}
+  
 .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
