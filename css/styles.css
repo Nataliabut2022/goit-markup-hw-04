@@ -379,14 +379,48 @@ img {
     border-radius: 50%;
 }
 
+.socials-footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
 .socials-link:hover,
 .socials-link:focus {
     color: var(--light-txt-cl);
     background-color: var(--accent-bg-cl);
 }
 
+.socials-footer-link:hover,
+.socials-footer-link:focus {
+    color: var(--light-txt-cl);
+    background-color: var(--accent-bg-cl);
+}
+
 .socials-icon {
     fill: currentColor;
+}
+
+.socials-footer-icon {
+    fill: currentColor;
+}
+
+.social-footer {
+    display: flex;
+    align-items: baseline
+}
+
+.social-footer-text {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
 }
   
 .portfolio {
@@ -435,6 +469,13 @@ img {
 
 .footer {
     background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container-footer {
+    display: flex;
+    gap: 70px;
 }
 
 .logo2 {
