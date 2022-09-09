@@ -250,6 +250,22 @@ img {
     background-color: #F5F4FA;
 }
 
+.icon-antenna::before {
+    background-image: url(../images/icons/antenna.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/icons/clock.svg);
+}
+
+.icon-diagram::before {
+    background-image: url(../images/icons/diagram.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/icons/astronaut.svg);
+}
+
 .benefit-item-title {  
     margin-bottom: 10px;  
     font-size: 14px;
@@ -288,6 +304,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 30px;
+    
 }
 
 .clients-link {
@@ -468,9 +485,7 @@ img {
 }
 
 .footer {
-    background-color: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    background-color: #2F303A;    
 }
 
 .container-footer {
