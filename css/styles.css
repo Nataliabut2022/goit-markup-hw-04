@@ -105,6 +105,7 @@ img {
     display: flex;
     align-items: center;
     gap: 10px;    
+    
 }
 
 .auth-icon {
@@ -250,8 +251,8 @@ img {
     background-color: #F5F4FA;
 }
 
-.icon-antenna::before {
-    background-image: url(../images/icons/antenna.svg);
+.icon-antenna::before {     
+    background-image: url(../images/icons/antenna.svg);    
 }
 
 .icon-clock::before {
