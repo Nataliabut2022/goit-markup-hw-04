@@ -225,6 +225,11 @@ img {
     padding-bottom: 200px;    
 }
 
+.section1 {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .our-benefit {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -334,7 +339,7 @@ img {
 .our-team {
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--secondary-bg-c);
+    background-color: var(--secondary-bg-cl);
 }
 
 .team {
@@ -428,9 +433,9 @@ img {
     fill: currentColor;
 }
 
-.social-footer {
+.social-footer-list {
     display: flex;
-    align-items: baseline
+    
 }
 
 .social-footer-text {
@@ -487,11 +492,14 @@ img {
 
 .footer {
     background-color: #2F303A;    
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .container-footer {
     display: flex;
     gap: 70px;
+    align-items: baseline
 }
 
 .logo2 {
