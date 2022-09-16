@@ -109,7 +109,7 @@ img {
 }
 
 .auth-icon {
-    fill: var(--secondary-txt-cl);
+    fill: currentColor;
       
 }
 
@@ -239,8 +239,6 @@ img {
     display: flex;
     gap: 30px;
 }
-
-
 
 .benefit-item {
     width: 270px;
