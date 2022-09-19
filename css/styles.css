@@ -17,11 +17,13 @@
 
 /*Reset*/
 .link {
+    
     text-decoration: none;
     color: currentColor;
 }
 
 .list {
+    display: flex;
     list-style: none;   
     margin: 0;
     padding: 0; 
@@ -417,10 +419,7 @@ img {
     fill: currentColor;
 }
 
-.social-footer-list {
-    display: flex;
-    
-}
+
 
 .social-footer-text {
     color: #FFFFFF;
@@ -501,7 +500,11 @@ img {
 }
 
 .footer-address {
-    font-style:normal
+    font-style:normal    
+} 
+
+
+.contacts-link {
     
 }
 
