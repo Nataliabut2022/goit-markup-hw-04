@@ -244,28 +244,16 @@ img {
     width: 270px;
 }
 
-.benefit-item::before {
-    display: block;
-    content: '';
-    height: 120px;  
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+
+
+.benefit-icons {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #F5F4FA;
-}
-
-
-
-.icon-clock::before {
-    background-image: url(../images/icons/clock.svg);
-}
-
-.icon-diagram::before {
-    background-image: url(../images/icons/diagram.svg);
-}
-
-.icon-astronaut::before {
-    background-image: url(../images/icons/astronaut.svg);
+    margin-bottom: 30px;
 }
 
 .benefit-item-title {  
